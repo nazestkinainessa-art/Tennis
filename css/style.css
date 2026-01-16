@@ -531,3 +531,150 @@ align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.hero-news h1{
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 140%;
+  text-align: center;
+  margin-top:30px;
+}
+
+.news{
+  margin-top: 80px;
+}
+
+.news-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 30px;
+  column-gap: 24px;
+  margin-bottom: 120px;
+}
+
+.news-photo{
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.news-card{
+  padding:30px 40px;
+  border: 1px solid rgba(247, 236, 225, 1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.news-date{
+  color: #333333;
+  opacity:50%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  display: block;
+  margin-top:25px;
+  margin-bottom: 15px;
+}
+
+.news-card h4{
+  color:#333333;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 140%;
+  margin-bottom: 20px;
+}
+
+.detail {
+  background: #8D86C9;
+  color: white;
+  text-decoration: none; 
+  padding: 10px 20px;
+  display: inline-block; 
+  font-weight: 600;
+  font-size: 18px; 
+  line-height: 140%;  
+  margin-top: auto;
+  align-self: flex-start; 
+}
+
+/* Третья страница */
+
+.hero-club{
+  min-height: 263px;
+  background-image:
+  linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+    ),
+    url("../img/news.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  margin-bottom: 80px;
+}
+
+.hero-club h1{
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 140%;
+  text-align: center;
+  margin-top:30px;
+}
+
+.court{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.court h2{
+  color: #333333;
+  style: bold;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 140%;
+}
+
+.court-arrow{
+  display: flex;
+  gap:15px;
+}
+
+.foto-courts{
+  width: 100%;
+  height: 450px;
+
+  background-image:
+  linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+    ),
+    url("../img/Court.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-clip: content-box;
+  padding: 20px 25px;
+  border: 1px solid rgba(247, 236, 225, 1);
+  display: flex;
+  align-items: flex-end;
+}
+
+.summer-court{
+  color:#FFFFFF;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  background-color: #8D86C9;
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+}
+
+
