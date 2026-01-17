@@ -634,7 +634,7 @@ align-items: center;
 
 .court h2{
   color: #333333;
-  style: bold;
+  font-style: bold;
   font-weight: 700;
   font-size: 36px;
   line-height: 140%;
@@ -678,3 +678,164 @@ align-items: center;
 }
 
 
+.tennis-club{
+  margin-top: 150px;
+}
+
+.tennis-club h2{
+  color:#333333;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 140%;
+  margin-bottom: 60px;
+}
+
+.container-club{
+  display: flex;
+  align-items: center;
+}
+
+.img-club1{
+  width: 526px;
+  height: 514px;
+  position: relative;
+}
+
+.about-info{
+  width: 856px;
+  height: 654px;
+  background: #F7ECE1;
+  box-sizing: border-box;
+  padding-left: 146px;
+  margin-left: -86px;
+}
+
+.about-info h3{
+  color: #333333;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 140%;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.about-info p{
+  color: #333333;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  margin-bottom: 20px;
+}
+
+.about-stats{
+  display: flex;
+  gap: 70px;
+  margin-top: 45px;
+}
+
+.stat-item{
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+
+.stat-item h3{
+  color: #8D86C9;
+  font-size: 48px;
+  margin: 0;
+  line-height: 1;
+}
+
+.stat-item p{
+  color: black;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+  margin: 0;
+}
+
+.rules{
+  margin-top:120px;
+  margin-bottom:120px;
+}
+
+.rules h2{
+  color: #333333;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 140%;
+  margin-bottom: 80px;
+}
+
+.rules-wrapper{
+  display: flex;
+  gap:74px;
+  align-items: flex-start;
+}
+
+.rules-menu{
+  width: 366px;
+}
+
+.rules-menu h4{
+  color: #333333;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 140%;
+}
+
+.rules-menu li{
+  color: #333333;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 140%;
+}
+
+.rules-menu li.active{
+  color:#8D86C9;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 140%;
+  margin-left: 30px;
+}
+
+.rules-menu li.active h4{
+  color:#8D86C9;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 140%;
+}
+
+.rules-content{
+  flex: 1
+}
+
+.rules-content ul {
+  list-style: none; 
+  padding-left: 0; 
+}
+
+.rules-content ul li {
+  position: relative; 
+  padding-left: 25px; 
+  margin-bottom: 10px; 
+}
+
+.rules-content ul li::before {
+  content: "—"; 
+  color: #8D86C9;   
+  position: absolute;  
+  left: 0;             
+  font-weight: 900; 
+}
+
+.rule-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  margin-bottom: 25px;
+  margin-top: 40px;
+}
