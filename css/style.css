@@ -458,17 +458,32 @@ justify-content: center;
 align-items: center;
 }
 
-.cafe-photo{
+.cafe-photo, .stringer-photo, .sauna-photo, .kids-photo{
   width: 586px;
   height: 270px;
   display: flex;
   align-items: flex-end;
-  background-image: linear-gradient(0deg, #00000066, #00000066), url('../img/cafe.jpg');
   background-size:cover;
   background-position: center;
   box-sizing: border-box;
   padding-bottom:30px;
   padding-left: 40px;
+  margin: 30px auto;
+}
+.cafe-photo{
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/cafe.jpg');
+}
+
+.stringer-photo{
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/service-2.jpg');
+}
+
+.sauna-photo{
+background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/service-3.jpg');
+}
+
+.kids-photo{
+background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/service-4.jpg');
 }
 
 .footer{
@@ -838,4 +853,61 @@ align-items: center;
   line-height: 140%;
   margin-bottom: 25px;
   margin-top: 40px;
+}
+
+/* Блок с ценами и абонементами */
+
+.modal-overlay {
+	position: fixed; 
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6); 
+	z-index: 1000; 
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-overlay--visible {
+	display: flex; 
+}
+
+.modal-window {
+	background-color: #fff;
+	padding: 40px;
+	border-radius: 10px;
+	max-width: 500px; 
+	width: 90%; 
+	position: relative; 
+	display: none; 
+}
+
+.modal-window--visible {
+	display: block;
+}
+
+.modal-close {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	font-size: 28px;
+	cursor: pointer;
+	color: #999;
+	transition: color 0.2s;
+}
+
+.modal-close:hover {
+	color: #333;
+}
+
+/* Услуги новые разделы */
+.services-slider .service-card {
+    display: none;
+}
+
+.services-slider .service-card:first-child {
+    display: block;
+    margin: 0 auto;
 }

@@ -113,8 +113,8 @@
         <div class="trainers-header">
           <h2>Тренерский состав</h2>
           <div class='trainers-arrows'>
-            <img src="../img/strelki2.png" alt="Стрелка вправо" class="arrow">
-            <img src="../img/strelki1.png" alt="Стрелка влево" class="arrow">
+            <img src="../img/strelki2.png" alt="Стрелка вправо" class="arrow arrow-prev">
+            <img src="../img/strelki1.png" alt="Стрелка влево" class="arrow arrow-next">
           </div>
         </div>
         <div class='trainers-list'>
@@ -170,36 +170,53 @@
           <div class="prices-header">
             <h2>Цены и абонементы</h2>
           </div>
-          <div class="prices-list">
+          <div class="prices-list" data-modal="winter">
             <h4>Зимний сезон 2021-2022</h4>
             <img src='../img/strelki2.png' class="prices-arrow">
           </div>
-          <div class="prices-list">
+          <div class="prices-list" data-modal="subscription">
             <h4>Абонементы</h4>
             <img src='../img/strelki2.png' class="prices-arrow">
           </div>
-          <div class="prices-list">
+          <div class="prices-list" data-modal="sale">
             <h4>Скидки</h4>
             <img src='../img/strelki2.png' class="prices-arrow">
           </div>
-          <div class="prices-list">
+          <div class="prices-list" data-modal="modal-services">
             <h4>Дополнительные услуги</h4>
             <img src='../img/strelki2.png' class="prices-arrow">
           </div>
         </section>
-
+        
         <section class="cafe-section" id="cafe-section">
           <div class="services-header">
             <h2>Услуги</h2>
             <div class="services-arrows">
-              <img src="../img/strelki2.png" alt="Стрелка вправо" class="arrow">
-              <img src="../img/strelki1.png" alt="Стрелка влево" class="arrow">
+              <img src="../img/strelki2.png" alt="Стрелка вправо" class="arrow arrow-prev">
+              <img src="../img/strelki1.png" alt="Стрелка влево" class="arrow arrow-next">
             </div>
           </div>
+          <div class="services-slider">
           <div class="service-card">
             <div class="cafe-photo">
               <h3>Уютное кафе</h3>
             </div>
+          </div>
+          <div class="service-card">
+            <div class="stringer-photo">
+              <h3>Натяжка ракеток</h3>
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="sauna-photo">
+              <h3>Сауна и массаж</h3>
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="kids-photo">
+              <h3>Детская комната</h3>
+            </div>
+          </div>
           </div>
         </section>
       </div>
@@ -226,5 +243,38 @@
       </div>
     </div>
   </footer>
+<!-- Цены и абонементы (js)-->
+  <div class="modal-overlay">
+
+    <div class="modal-window" id="winter">
+      <span class="modal-close">&times;</span>
+      <h3>Зимний сезон 2021-2022</h3>
+      <p>Спецпредложения этого месяца: Лыжная подготовка и Новогодний детокс.</p>
+      <p class="price">Цена: уточняйте у администратора</p>
+    </div>
+
+    <div class="modal-window" id="subscription">
+      <span class="modal-close">&times;</span>
+      <h3>Абонементы</h3>
+      <p><b>Варианты:</b> «Утренний сет» (до 14:00), «Дневной» и «Безлимит».</p>
+      <p><b>Входит:</b> Аренда корта (1 час в день), прокат ракеток и корзины мячей, сауна, заморозка на 14 дней.</p>
+      <p class="price">От 4 500 ₽ / месяц</p>
+    </div>
+    <div class="modal-window" id="sale">
+      <span class="modal-close">&times;</span>
+      <h3>Скидки</h3>
+      <p>Студентам -15%, Семейный тариф, Приведи друга.</p>
+      <p class="price">Узнайте подробности на ресепшене</p>
+    </div>
+    <div class="modal-window" id="modal-services">
+      <span class="modal-close">&times;</span>
+      <h3>Дополнительные услуги</h3>
+      <p>Персональный тренер, массаж, аренда полотенца, солярий.</p>
+      <p class="price">Прайс-лист доступен в клубе</p>
+    </div>
+
+  </div>
+
   <script src="../js/main.js"></script>
+
 </body>
