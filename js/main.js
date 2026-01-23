@@ -37,7 +37,7 @@ closeButtons.forEach(function (item) {
     });
 });
 
-//Главная ( блок с услугами )//
+//Главная ( блок с услугами )
 const servicesSection = document.querySelector('.cafe-section');
 const servicesSlider = servicesSection.querySelector('.services-slider');
 const serviceNext = servicesSection.querySelector('.arrow-next');
