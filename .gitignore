@@ -1,16 +1,12 @@
-# Системные файлы Mac OS
+# Mac OS
 .DS_Store
 
-# Системные файлы Windows
+# Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# Папка с настройками VS Code (твои личные настройки)
+# Настройки редактора
 .vscode/
-
-# Логи (отчеты об ошибках, если появятся)
 *.log
-
-# Временные файлы
 *.tmp
