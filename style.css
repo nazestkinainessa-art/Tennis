@@ -29,7 +29,7 @@ body {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)),
-    url("../img/home.jpg");
+    url("img/hero-bg.webp");
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -120,10 +120,6 @@ body {
   line-height: 140%;
 }
 
-.video img {
-  transform: rotate(90deg);
-}
-
 .services {
   margin-top: 202px;
   display: flex;
@@ -195,15 +191,15 @@ body {
 }
 
 .item-court {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/home_photo1.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/courts-clay.webp');
 }
 
 .item-grass {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/home_photo2.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/courts-grass.webp');
 }
 
 .item-hard {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/home_photo3.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/courts-hard.webp');
 }
 
 .about {
