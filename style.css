@@ -27,8 +27,7 @@ body {
 .hero {
   min-height: 1000px;
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)),
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("img/hero-bg.webp");
 
   background-repeat: no-repeat;
@@ -68,7 +67,6 @@ body {
   padding-left: 0;
   margin: 0;
   line-height: 1.2;
-
 }
 
 .navigation-list a {
@@ -91,7 +89,6 @@ body {
   display: flex;
   align-items: center;
 }
-
 
 .header-line {
   height: 1px;
@@ -191,15 +188,21 @@ body {
 }
 
 .item-court {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/courts-clay.webp');
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("img/courts-clay.webp");
 }
 
 .item-grass {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/courts-grass.webp');
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("img/courts-grass.webp");
 }
 
 .item-hard {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/courts-hard.webp');
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("img/courts-hard.webp");
 }
 
 .about {
@@ -279,8 +282,7 @@ body {
   top: 8px;
   width: 8px;
   height: 8px;
-  ;
-  background-color: #8D86C9;
+  background-color: #8d86c9;
 }
 
 .trainers {
@@ -307,7 +309,7 @@ body {
   height: 45px;
   padding: 7px;
   box-sizing: border-box;
-  background-color: #8D86C9
+  background-color: #8d86c9;
 }
 
 .trainers-arrows {
@@ -391,13 +393,12 @@ body {
   width: 526px;
   height: 60px;
   box-sizing: border-box;
-  background-color: #8D86C9;
+  background-color: #8d86c9;
   padding: 15px 30px;
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .prices-list h4 {
@@ -442,7 +443,7 @@ body {
 }
 
 .service-card h3 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-style: Bold;
   font-size: 27px;
   font-weight: 700;
@@ -453,7 +454,7 @@ body {
 .service-card {
   width: 636px;
   height: 330px;
-  border: 1px solid #F7ECE1;
+  border: 1px solid #f7ece1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -476,19 +477,27 @@ body {
 }
 
 .cafe-photo {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/cafe.jpg');
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("img/service-cafe.webp");
 }
 
 .stringer-photo {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/service-2.jpg');
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("img/service-repair.webp");
 }
 
 .sauna-photo {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/service-3.jpg');
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("img/service-sauna.webp");
 }
 
 .kids-photo {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/service-4.jpg');
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("img/service-kids.webp");
 }
 
 .footer {
@@ -543,9 +552,8 @@ body {
 .hero-news {
   min-height: 263px;
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)),
-    url("../img/news.jpg");
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("img/hero-news.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -606,7 +614,7 @@ body {
 }
 
 .detail {
-  background: #8D86C9;
+  background: #8d86c9;
   color: white;
   text-decoration: none;
   padding: 10px 20px;
@@ -623,9 +631,8 @@ body {
 .hero-club {
   min-height: 263px;
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)),
-    url("../img/news.jpg");
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("img/hero-about.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -682,44 +689,39 @@ body {
 
 .slide-summer {
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)),
-    url("../img/Court.jpg");
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("img/court-1.webp");
 }
 
 .slide-autumn {
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)),
-    url("../img/court3.jpg");
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("img/court-2.webp");
 }
 
 .slide-winter {
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)),
-    url("../img/court4.jpg");
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("img/court-3.webp");
 }
 
 .slide-spring {
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)),
-    url("../img/court2.jpg");
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("img/court-4.webp");
 }
 
 .summer-court {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 600;
   font-size: 18px;
   line-height: 140%;
-  background-color: #8D86C9;
+  background-color: #8d86c9;
   padding: 10px 20px;
   margin-bottom: 40px;
   margin-left: 50px;
 }
-
 
 .tennis-club {
   margin-top: 150px;
@@ -748,7 +750,7 @@ body {
 .about-info {
   width: 856px;
   height: 654px;
-  background: #F7ECE1;
+  background: #f7ece1;
   box-sizing: border-box;
   padding-left: 146px;
   margin-left: -86px;
@@ -785,7 +787,7 @@ body {
 }
 
 .stat-item h3 {
-  color: #8D86C9;
+  color: #8d86c9;
   font-size: 48px;
   margin: 0;
   line-height: 1;
@@ -838,7 +840,7 @@ body {
 }
 
 .rules-menu li.active {
-  color: #8D86C9;
+  color: #8d86c9;
   font-weight: 600;
   font-size: 21px;
   line-height: 140%;
@@ -846,14 +848,14 @@ body {
 }
 
 .rules-menu li.active h4 {
-  color: #8D86C9;
+  color: #8d86c9;
   font-weight: 600;
   font-size: 21px;
   line-height: 140%;
 }
 
 .rules-content {
-  flex: 1
+  flex: 1;
 }
 
 .rules-content ul {
@@ -869,7 +871,7 @@ body {
 
 .rules-content ul li::before {
   content: "—";
-  color: #8D86C9;
+  color: #8d86c9;
   position: absolute;
   left: 0;
   font-weight: 900;
