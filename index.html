@@ -10,71 +10,119 @@
     <main>
       <section class="hero">
         <header class="header">
-          <div class="container header-container">
-            <div class="logo">
+          <div class="container header__container">
+            <div class="header__logo">
               <a href="index.html"
                 ><img src="img/svg/logo.svg" alt="Логотип Тенниса"
               /></a>
             </div>
             <nav class="navigation">
-              <ul class="navigation-list">
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="club.html">О клубе</a></li>
-                <li><a href="#services">Турниры</a></li>
-                <li><a href="#cafe-section">Услуги</a></li>
-                <li><a href="#services">Детский теннис</a></li>
-                <li><a href="news.html">Галерея</a></li>
-                <li><a href="#cafe-section">Цены</a></li>
-                <li><a href="#footer">Контакты</a></li>
+              <ul class="navigation__list">
+                <li class="navigation__item">
+                  <a href="index.html" class="navigation__link">Главная</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="club.html" class="navigation__link">О клубе</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="#services" class="navigation__link">Турниры</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="#cafe-section" class="navigation__link">Услуги</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="#services" class="navigation__link"
+                    >Детский теннис</a
+                  >
+                </li>
+                <li class="navigation__item">
+                  <a href="news.html" class="navigation__link">Галерея</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="#cafe-section" class="navigation__link">Цены</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="#footer" class="navigation__link">Контакты</a>
+                </li>
               </ul>
             </nav>
-            <div class="social">
-              <a href="#"
-                ><img src="img/svg/icon-youtube-white.svg" alt="YouTube"
+            <div class="header__social">
+              <a href="#" class="header__social-link">
+                <img
+                  src="img/svg/icon-youtube-white.svg"
+                  alt="YouTube"
+                  class="header__social-icon"
               /></a>
-              <a href="#"><img src="img/svg/icon-vk-white.svg" alt="VK" /></a>
-            </div>
-          </div>
-          <div class="header-line"></div>
+              <a href="#" class="header__social-link">
+                <img
+                  src="img/svg/icon-vk-white.svg"
+                  alt="VK"
+                  class="header__social-icon"
+              /></a>
+          <div class="header__line"></div>
         </header>
 
         <div class="container">
-          <h1 class="hero-title">
+          <h1 class="hero__title">
             Петербургский<br />
             теннисный клуб<br />
             имени М.А. Пасечникова
           </h1>
-          <div class="video">
+          <div class="hero__video">
             <img
               src="img/svg/play-button.svg"
               alt="Проигрыватель"
-              class="player"
+              class="hero__player"
             />
-            <p>
+            <p class="hero__video-text">
               Посмотрите видео<br />
               о нашем клубе
             </p>
           </div>
           <div class="services" id="services">
-            <div class="service-item">
-              <p class="service-category">Услуги</p>
-              <p class="service-title">Аренда корта</p>
-              <img src="img/svg/icon-arrow.svg" alt="перейти" class="go" />
+            <div class="services__item">
+              <p class="services__category">Услуги</p>
+              <p class="services__title">Аренда корта</p>
+              <a href="#">
+                <img
+                  src="img/svg/icon-arrow.svg"
+                  alt="перейти"
+                  class="services__arrow"
+                />
+              </a>
             </div>
-            <div class="service-item">
-              <p class="service-category">Услуги</p>
-              <p class="service-title">Детский теннис</p>
-              <img src="img/svg/icon-arrow.svg" alt="Перейти" class="go" />
+            <div class="services__item">
+              <p class="services__category">Услуги</p>
+              <p class="services__title">Детский теннис</p>
+              <a href="#">
+                <img
+                  src="img/svg/icon-arrow.svg"
+                  alt="Перейти"
+                  class="services__arrow"
+                />
+              </a>
             </div>
-            <div class="service-item">
-              <p class="service-category">Услуги</p>
-              <p class="service-title">Сборы команд</p>
-              <img src="img/svg/icon-arrow.svg" alt="Перейти" class="go" />
+            <div class="services__item">
+              <p class="services__category">Услуги</p>
+              <p class="services__title">Сборы команд</p>
+              <a href="#">
+                <img
+                  src="img/svg/icon-arrow.svg"
+                  alt="Перейти"
+                  class="services__arrow"
+                />
+              </a>
             </div>
-            <div class="service-item">
-              <p class="service-category">Турниры</p>
-              <p class="service-title">Расписание</p>
-              <img src="img/svg/icon-arrow.svg" alt="Перейти" class="go" />
+            <div class="services__item">
+              <p class="services__category">Турниры</p>
+              <p class="services__title">Расписание</p>
+              <a href="#">
+                <img
+                  src="img/svg/icon-arrow.svg"
+                  alt="Перейти"
+                  class="services__arrow"
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -82,21 +130,21 @@
 
       <section class="advantages">
         <div class="container">
-          <div class="advantages-list">
-            <div class="advantage-item item-court">
-              <h3>
+          <div class="advantages__list">
+            <div class="advantages__item advantages__item--court">
+              <h3 class="advantages__text">
                 5 летних<br />
                 грунтовых кортов
               </h3>
             </div>
-            <div class="advantage-item item-grass">
-              <h3>
+            <div class="advantages__item advantages__item--grass">
+              <h3 class="advantages__text">
                 Зал с покрытием<br />
                 "Искусственная трава"
               </h3>
             </div>
-            <div class="advantage-item item-hard">
-              <h3>
+            <div class="advantages__item advantages__item--hard">
+              <h3 class="advantages__text">
                 Зал с покрытием<br />
                 "Хард"
               </h3>
@@ -107,15 +155,15 @@
 
       <section class="about">
         <div class="container">
-          <div class="about-wrapper">
+          <div class="about__wrapper">
             <img
               src="img/about-club.webp"
               alt="Девушка с ракеткой"
-              class="sports-club"
+              class="about__image"
             />
-            <div class="about-content">
-              <h2>Спортивный клуб</h2>
-              <p>
+            <div class="about__content">
+              <h2 class="about__title">Спортивный клуб</h2>
+              <p class="about__text">
                 Imperdiet lorem ipsum, pulvinar aliquet sit ultricies in sit
                 turpis.<br />
                 Ultricies erat pretium risus quam tincidunt non viverra
@@ -126,26 +174,28 @@
                 sit<br />
                 netus aenean nisl. ]Donec sit pellentesque enim, vestibulum.
               </p>
-              <p>
+              <p class="about__text">
                 Condimentum hac adipiscing purus in augue nisi. Convallis ut
                 nisi.
               </p>
 
-              <h4>Ornare orci ut dictum nulla fames.</h4>
-              <ul class="about-list">
-                <li>
+              <h4 class="about__subtitle">
+                Ornare orci ut dictum nulla fames.
+              </h4>
+              <ul class="about__list">
+                <li class="about__item">
                   Euismod diam, vel venenatis bibendum sodales sem hendrerit<br />vulputate
                   sagittis.
                 </li>
-                <li>
+                <li class="about__item">
                   Nisl senectus sed malesuada donec. Interdum malesuada<br />bibendum
                   imperdiet elementum auctor vitae in.
                 </li>
-                <li>
+                <li class="about__item">
                   Quam purus ornare dictum pharetra. Sed viverra tellus<br />sollicitudin
                   urna, sagittis.
                 </li>
-                <li>
+                <li class="about__item">
                   Scelerisque urna senectus commodo, nam. Donec nibh<br />tempus
                   imperdiet nisi, tincidunt mus egestas nisl nullam.
                 </li>
@@ -157,99 +207,123 @@
 
       <section class="trainers">
         <div class="container">
-          <div class="trainers-header">
-            <h2>Тренерский состав</h2>
-            <div class="trainers-arrows">
+          <div class="trainers__header">
+            <h2 class="trainers__title">Тренерский состав</h2>
+            <div class="trainers__arrows">
               <img
                 src="img/svg/arrow-right.svg"
                 alt="Стрелка вправо"
-                class="arrow arrow-prev"
+                class="trainers__arrow arrow-prev"
               />
               <img
                 src="img/svg/arrow-left.svg"
                 alt="Стрелка влево"
-                class="arrow arrow-next"
+                class="trainers__arrow arrow-next"
               />
             </div>
           </div>
-          <div class="trainers-list">
-            <div class="trenery">
-              <div class="trainer-frame">
-                <img src="img/trainer-1.webp" alt="тренер 1" class="trainer" />
+          <div class="trainers__list">
+            <div class="trainers__item">
+              <div class="trainers__frame">
+                <img
+                  src="img/trainer-1.webp"
+                  alt="Pulvinar aliquam"
+                  class="trainers__photo"
+                />
               </div>
-              <h4>
+              <h4 class="trainers__name">
                 Pulvinar<br />
                 aliquam
               </h4>
-              <p>
+              <p class="trainers__description">
                 Arcu elit massa amet turpis vel<br />
                 consequat pellentesque sit.
               </p>
             </div>
-            <div class="trenery">
-              <div class="trainer-frame">
-                <img src="img/trainer-2.webp" alt="тренер 2" class="trainer" />
+            <div class="trainers__item">
+              <div class="trainers__frame">
+                <img
+                  src="img/trainer-2.webp"
+                  alt="Pretium odio"
+                  class="trainers__photo"
+                />
               </div>
-              <h4>
+              <h4 class="trainers__name">
                 Pretium<br />
                 odio
               </h4>
-              <p>
+              <p class="trainers__description">
                 Bibendum aliquam volutpat<br />
                 nisl a duis in nisi. In sed<br />
                 commodo lorem morbi quis.
               </p>
             </div>
-            <div class="trenery">
-              <div class="trainer-frame">
-                <img src="img/trainer-3.webp" alt="тренер 3" class="trainer" />
+            <div class="trainers__item">
+              <div class="trainers__frame">
+                <img
+                  src="img/trainer-3.webp"
+                  alt="Aliquet consectetur"
+                  class="trainers__photo"
+                />
               </div>
-              <h4>
+              <h4 class="trainers__name">
                 Aliquet<br />
                 consectetur
               </h4>
-              <p>
+              <p class="trainers__description">
                 Id sapien sed nibh fermentum<br />
                 massa posuere ipsum. Diam in.
               </p>
             </div>
-            <div class="trenery">
-              <div class="trainer-frame">
-                <img src="img/trainer-4.webp" alt="тренер 4" class="trainer" />
+            <div class="trainers__item">
+              <div class="trainers__frame">
+                <img
+                  src="img/trainer-4.webp"
+                  alt="Blandit augue"
+                  class="trainers__photo"
+                />
               </div>
-              <h4>
+              <h4 class="trainers__name">
                 Blandit<br />
                 augue
               </h4>
-              <p>
+              <p class="trainers__description">
                 Scelerisque accumsan pretium<br />
                 justo, vitae elit. Dolor semper<br />
                 morbi sit auctor vel diam eros.
               </p>
             </div>
-            <div class="trenery">
-              <div class="trainer-frame">
-                <img src="img/trainer-5.webp" alt="тренер 5" class="trainer" />
+            <div class="trainers__item">
+              <div class="trainers__frame">
+                <img
+                  src="img/trainer-5.webp"
+                  alt="Lorem lacus"
+                  class="trainers__photo"
+                />
               </div>
-              <h4>
+              <h4 class="trainers__name">
                 Lorem<br />
                 lacus
               </h4>
-              <p>
+              <p class="trainers__description">
                 Adipiscing amet, viverra<br />
                 dignissim egestas. Sed nibh<br />
                 egestas venenatis faucibus.
               </p>
             </div>
-            <div class="trenery">
-              <div class="trainer-frame">
-                <img src="img/trainer-6.webp" alt="тренер 6" class="trainer" />
+            <div class="trainers__item">
+              <div class="trainers__frame">
+                <img
+                  src="img/trainer-6.webp"
+                  alt="Sed erat"
+                  class="trainers__photo"
+                />
               </div>
-              <h4>
+              <h4 class="trainers__name">
                 Sed<br />
                 erat
               </h4>
-              <p>
+              <p class="trainers__description">
                 Quis ullamcorper pretium<br />
                 lacus risus tellus dolor etiam.
               </p>
@@ -259,64 +333,84 @@
       </section>
 
       <div class="container">
-        <div class="columns-wrapper">
+        <div class="columns__wrapper">
           <section class="prices" id="prices">
-            <div class="prices-header">
-              <h2>Цены и абонементы</h2>
-            </div>
-            <div class="prices-list" data-modal="winter">
-              <h4>Зимний сезон 2021-2022</h4>
-              <img src="img/svg/price-arrow.svg" class="prices-arrow" />
-            </div>
-            <div class="prices-list" data-modal="subscription">
-              <h4>Абонементы</h4>
-              <img src="img/svg/price-arrow.svg" class="prices-arrow" />
-            </div>
-            <div class="prices-list" data-modal="sale">
-              <h4>Скидки</h4>
-              <img src="img/svg/price-arrow.svg" class="prices-arrow" />
-            </div>
-            <div class="prices-list" data-modal="modal-services">
-              <h4>Дополнительные услуги</h4>
-              <img src="img/svg/price-arrow.svg" class="prices-arrow" />
+            <div class="container">
+              <div class="prices__header">
+                <h2 class="prices__title">Цены и абонементы</h2>
+              </div>
+              <div class="prices__list">
+                <div class="prices__item" data-modal="winter">
+                  <h3 class="prices__subtitle">Зимний сезон 2021-2022</h3>
+                  <img
+                    src="img/svg/price-arrow.svg"
+                    alt="Перейти"
+                    class="prices__arrow"
+                  />
+                </div>
+                <div class="prices__item" data-modal="subscription">
+                  <h3 class="prices__subtitle">Абонементы</h3>
+                  <img
+                    src="img/svg/price-arrow.svg"
+                    alt="Перейти"
+                    class="prices__arrow"
+                  />
+                </div>
+                <div class="prices__item" data-modal="sale">
+                  <h3 class="prices__subtitle">Скидки</h3>
+                  <img
+                    src="img/svg/price-arrow.svg"
+                    alt="Перейти"
+                    class="prices__arrow"
+                  />
+                </div>
+                <div class="prices__item" data-modal="modal-services">
+                  <h3 class="prices__subtitle">Дополнительные услуги</h3>
+                  <img
+                    src="img/svg/price-arrow.svg"
+                    alt="Перейти"
+                    class="prices__arrow"
+                  />
+                </div>
+              </div>
             </div>
           </section>
 
-          <section class="cafe-section" id="cafe-section">
-            <div class="services-header">
-              <h2>Услуги</h2>
-              <div class="services-arrows">
+          <section class="facilities" id="cafe-section">
+            <div class="facilities__header">
+              <h2 class="facilities__title">Услуги</h2>
+              <div class="facilities__arrows">
                 <img
                   src="img/svg/arrow-right.svg"
                   alt="Стрелка вправо"
-                  class="arrow arrow-prev"
+                  class="facilities__arrow arrow-prev"
                 />
                 <img
                   src="img/svg/arrow-left.svg"
                   alt="Стрелка влево"
-                  class="arrow arrow-next"
+                  class="facilities__arrow arrow-next"
                 />
               </div>
             </div>
-            <div class="services-slider">
-              <div class="service-card">
-                <div class="cafe-photo">
-                  <h3>Уютное кафе</h3>
+            <div class="facilities__slider">
+              <div class="facilities__card">
+                <div class="facilities__cafe-photo">
+                  <h3 class="facilities__text">Уютное кафе</h3>
                 </div>
               </div>
-              <div class="service-card">
-                <div class="stringer-photo">
-                  <h3>Натяжка ракеток</h3>
+              <div class="facilities__card">
+                <div class="facilities__stringer-photo">
+                  <h3 class="facilities__text">Натяжка ракеток</h3>
                 </div>
               </div>
-              <div class="service-card">
-                <div class="sauna-photo">
-                  <h3>Сауна и массаж</h3>
+              <div class="facilities__card">
+                <div class="facilities__sauna-photo">
+                  <h3 class="facilities__text">Сауна и массаж</h3>
                 </div>
               </div>
-              <div class="service-card">
-                <div class="kids-photo">
-                  <h3>Детская комната</h3>
+              <div class="facilities__card">
+                <div class="facilities__kids-photo">
+                  <h3 class="facilities__text">Детская комната</h3>
                 </div>
               </div>
             </div>
@@ -326,29 +420,57 @@
     </main>
 
     <footer class="footer" id="footer">
-      <div class="footer-container">
-        <p class="copyright">2022 © Все права защищены.</p>
-        <ul class="footer-menu">
-          <li><a href="index.html">Главная</a></li>
-          <li><a href="club.html">О клубе</a></li>
-          <li><a href="#services">Турниры</a></li>
-          <li><a href="#cafe-section">Услуги</a></li>
-          <li><a href="#services">Детский теннис</a></li>
-          <li><a href="news.html">Галерея</a></li>
-          <li><a href="#cafe-section">Цены</a></li>
-          <li><a href="#footer">Контакты</a></li>
+      <div class="footer__container">
+        <p class="footer__copyright">2022 © Все права защищены.</p>
+        <ul class="footer__menu">
+          <li class="footer__item">
+            <a href="index.html" class="footer__link">Главная</a>
+          </li>
+          <li class="footer__item">
+            <a href="club.html" class="footer__link">О клубе</a>
+          </li>
+          <li class="footer__item">
+            <a href="#services" class="footer__link">Турниры</a>
+          </li>
+          <li class="footer__item">
+            <a href="#cafe-section" class="footer__link">Услуги</a>
+          </li>
+          <li class="footer__item">
+            <a href="#services" class="footer__link">Детский теннис</a>
+          </li>
+          <li class="footer__item">
+            <a href="news.html" class="footer__link">Галерея</a>
+          </li>
+          <li class="footer__item">
+            <a href="#cafe-section" class="footer__link">Цены</a>
+          </li>
+          <li class="footer__item">
+            <a href="#footer" class="footer__link">Контакты</a>
+          </li>
         </ul>
-        <div class="footer-socials">
-          <a href="#"
-            ><img src="img/svg/icon-youtube-purple.svg" alt="YouTube"
+        <div class="footer__socials">
+          <a href="#" class="footer__social-link"
+            ><img
+              src="img/svg/icon-youtube-purple.svg"
+              class="footer__social-icon"
+              alt="YouTube"
           /></a>
-          <a href="#"><img src="img/svg/icon-vk-purple.svg" alt="VK" /></a>
-          <a href="#"
-            ><img src="img/svg/icon-tg-purple.svg" alt="Telegram"
+          <a href="#" class="footer__social-link"
+            ><img
+              src="img/svg/icon-vk-purple.svg"
+              class="footer__social-icon"
+              alt="VK"
+          /></a>
+          <a href="#" class="footer__social-link"
+            ><img
+              src="img/svg/icon-tg-purple.svg"
+              class="footer__social-icon"
+              alt="Telegram"
           /></a>
         </div>
       </div>
     </footer>
+
     <!-- Цены и абонементы (js)-->
     <div class="modal-overlay">
       <div class="modal-window" id="winter">

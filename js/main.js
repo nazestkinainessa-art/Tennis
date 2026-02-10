@@ -1,5 +1,5 @@
 //Главная ( блок Тренеры)
-const trainersList = document.querySelector(".trainers-list");
+const trainersList = document.querySelector(".trainers__list");
 const btnNext = document.querySelector(".arrow-next");
 const btnPrev = document.querySelector(".arrow-prev");
 
@@ -36,8 +36,8 @@ closeButtons.forEach(function (item) {
 });
 
 //Главная ( блок с услугами )
-const servicesSection = document.querySelector(".cafe-section");
-const servicesSlider = servicesSection.querySelector(".services-slider");
+const servicesSection = document.querySelector(".facilities");
+const servicesSlider = servicesSection.querySelector(".facilities__slider");
 const serviceNext = servicesSection.querySelector(".arrow-next");
 const servicePrev = servicesSection.querySelector(".arrow-prev");
 

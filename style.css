@@ -46,20 +46,20 @@ body {
   padding: 0 20px;
 }
 
-.header-container {
+.header__container {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.logo {
+.header__logo {
   height: 46px;
   width: auto;
   display: block;
 }
 
-.navigation-list {
+.navigation__list {
   font-size: 14px;
   display: flex;
   gap: 40px;
@@ -69,33 +69,33 @@ body {
   line-height: 1.2;
 }
 
-.navigation-list a {
+.navigation__link {
   text-decoration: none;
   color: white;
 }
 
-.social {
+.header__social {
   display: flex;
   gap: 20px;
 }
 
-.social img {
+.header__social-icon {
   height: 36px;
   width: auto;
   display: block;
 }
 
-.social a {
+.header__social-link {
   display: flex;
   align-items: center;
 }
 
-.header-line {
+.header__line {
   height: 1px;
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-.hero-title {
+.hero__title {
   color: white;
   font-size: 48px;
   font-weight: 700;
@@ -103,14 +103,14 @@ body {
   margin-top: 200px;
 }
 
-.video {
+.hero__video {
   margin-top: 60px;
   display: flex;
   align-items: center;
   gap: 30px;
 }
 
-.video p {
+.hero__video-text {
   color: white;
   font-size: 18px;
   font-weight: 600;
@@ -123,7 +123,7 @@ body {
   gap: 12px;
 }
 
-.service-item {
+.services__item {
   width: 315px;
   height: 151px;
   background-color: rgba(141, 134, 201, 1);
@@ -132,7 +132,7 @@ body {
   position: relative;
 }
 
-.service-category {
+.services__category {
   font-size: 18px;
   font-weight: 600;
   color: white;
@@ -140,14 +140,14 @@ body {
   margin-bottom: 17px;
 }
 
-.service-title {
+.services__title {
   font-size: 24px;
   font-weight: 700;
   color: white;
   margin: 0;
 }
 
-.go {
+.services__arrow {
   position: absolute;
   top: 72px;
   left: 250px;
@@ -157,12 +157,12 @@ body {
   margin-top: 150px;
 }
 
-.advantages-list {
+.advantages__list {
   display: flex;
   gap: 24px;
 }
 
-.advantage-item {
+.advantages__item {
   width: 416px;
   height: 500px;
   border: 1px solid rgba(247, 236, 225, 1);
@@ -179,7 +179,7 @@ body {
   text-align: center;
 }
 
-.advantage-item h3 {
+.advantages__text {
   color: white;
   font-size: 27px;
   font-weight: 700;
@@ -187,19 +187,19 @@ body {
   margin-bottom: 40px;
 }
 
-.item-court {
+.advantages__item--court {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("img/courts-clay.webp");
 }
 
-.item-grass {
+.advantages__item--grass {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("img/courts-grass.webp");
 }
 
-.item-hard {
+.advantages__item--hard {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("img/courts-hard.webp");
@@ -209,13 +209,13 @@ body {
   margin-top: 150px;
 }
 
-.about-wrapper {
+.about__wrapper {
   display: flex;
   align-items: flex-start;
   justify-content: center;
 }
 
-.sports-club {
+.about__image {
   width: 526px;
   height: 514px;
   object-fit: cover;
@@ -223,7 +223,7 @@ body {
   position: relative;
 }
 
-.about-content {
+.about__content {
   width: 636px;
   height: 654px;
   background-color: rgba(247, 236, 225, 1);
@@ -233,7 +233,7 @@ body {
   padding-right: 60px;
 }
 
-.about-content h2 {
+.about__title {
   color: #333333;
   font-style: bold;
   font-size: 36px;
@@ -243,14 +243,14 @@ body {
   margin-bottom: 25px;
 }
 
-.about-content p {
+.about__text {
   color: #333333;
   font-size: 14px;
   font-weight: 400;
   line-height: 140%;
 }
 
-.about-content h4 {
+.about__subtitle {
   color: #333333;
   font-style: bold;
   font-size: 21px;
@@ -259,13 +259,13 @@ body {
   margin-top: 35px;
 }
 
-.about-list {
+.about__list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.about-list li {
+.about__item {
   color: #333333;
   font-size: 14px;
   font-weight: 400;
@@ -275,7 +275,7 @@ body {
   margin-bottom: 15px;
 }
 
-.about-list li::before {
+.about__item::before {
   content: "";
   position: absolute;
   left: 0;
@@ -289,14 +289,14 @@ body {
   padding-top: 150px;
 }
 
-.trainers-header {
+.trainers__header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 75px;
 }
 
-.trainers-header h2 {
+.trainers__title {
   color: #333333;
   font-style: bold;
   font-size: 36px;
@@ -304,7 +304,7 @@ body {
   line-height: 140%;
 }
 
-.arrow {
+.trainers__arrow {
   width: 45px;
   height: 45px;
   padding: 7px;
@@ -317,19 +317,19 @@ body {
   gap: 15px;
 }
 
-.trainers-list {
+.trainers__list {
   display: flex;
   gap: 24px;
 }
 
-.trenery {
+.trainers__item {
   width: 196px;
   display: flex;
   flex-direction: column;
   margin-bottom: 25px;
 }
 
-.trainer-frame {
+.trainers__frame {
   width: 196px;
   height: 240px;
   border: 1px solid rgba(247, 236, 225, 1);
@@ -339,13 +339,13 @@ body {
   margin-bottom: 15px;
 }
 
-.trainer {
+.trainers__photo {
   width: 166px;
   height: 240px;
   object-fit: cover;
 }
 
-.trenery h4 {
+.trainers__name {
   color: #333333;
   font-style: bold;
   font-size: 21px;
@@ -356,7 +356,7 @@ body {
   margin-bottom: 15px;
 }
 
-.trenery p {
+.trainers__description {
   color: #333333;
   font-size: 14px;
   font-weight: 400;
@@ -365,7 +365,7 @@ body {
   margin: 0;
 }
 
-.columns-wrapper {
+.columns__wrapper {
   display: flex;
   gap: 134px;
   margin-top: 150px;
@@ -376,11 +376,11 @@ body {
   width: 526px;
 }
 
-.prices-header {
+.prices__header {
   margin-bottom: 75px;
 }
 
-.prices-header h2 {
+.prices__title {
   color: #333333;
   font-style: Bold;
   font-size: 36px;
@@ -389,7 +389,7 @@ body {
   margin: 0;
 }
 
-.prices-list {
+.prices__item {
   width: 526px;
   height: 60px;
   box-sizing: border-box;
@@ -401,7 +401,7 @@ body {
   align-items: center;
 }
 
-.prices-list h4 {
+.prices__subtitle {
   width: 241px;
   height: 29px;
   color: white;
@@ -411,29 +411,37 @@ body {
   margin: 0;
 }
 
-.prices-arrow {
+.prices__arrow {
   width: 30px;
   height: 30px;
   margin: 0;
 }
 
-.cafe-section {
+.facilities {
   width: 636px;
 }
 
-.services-header {
+.facilities__header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 75px;
 }
 
-.services-arrows {
+.facilities__arrows {
   display: flex;
   gap: 15px;
 }
 
-.services-header h2 {
+.facilities__arrow {
+  width: 45px;
+  height: 45px;
+  padding: 7px;
+  box-sizing: border-box;
+  background-color: #8d86c9;
+}
+
+.facilities__title {
   color: #333333;
   font-style: Bold;
   font-size: 36px;
@@ -442,7 +450,7 @@ body {
   margin: 0;
 }
 
-.service-card h3 {
+.facilities__text {
   color: #ffffff;
   font-style: Bold;
   font-size: 27px;
@@ -451,19 +459,23 @@ body {
   margin: 0;
 }
 
-.service-card {
+.facilities__slider {
   width: 636px;
-  height: 330px;
+  height: 334px;
+  overflow: hidden;
+}
+
+.facilities__card {
   border: 1px solid #f7ece1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.cafe-photo,
-.stringer-photo,
-.sauna-photo,
-.kids-photo {
+.facilities__cafe-photo,
+.facilities__stringer-photo,
+.facilities__sauna-photo,
+.facilities__kids-photo {
   width: 586px;
   height: 270px;
   display: flex;
@@ -476,25 +488,25 @@ body {
   margin: 30px auto;
 }
 
-.cafe-photo {
+.facilities__cafe-photo {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("img/service-cafe.webp");
 }
 
-.stringer-photo {
+.facilities__stringer-photo {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("img/service-repair.webp");
 }
 
-.sauna-photo {
+.facilities__sauna-photo {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("img/service-sauna.webp");
 }
 
-.kids-photo {
+.facilities__kids-photo {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("img/service-kids.webp");
@@ -504,7 +516,7 @@ body {
   background-color: rgba(247, 236, 225, 1);
 }
 
-.footer-container {
+.footer__container {
   width: 1296px;
   margin: 0 auto;
   display: flex;
@@ -512,7 +524,7 @@ body {
   align-items: center;
 }
 
-.copyright {
+.footer__copyright {
   color: #333333;
   opacity: 30%;
   font-size: 14px;
@@ -521,7 +533,7 @@ body {
   line-height: 140%;
 }
 
-.footer-menu {
+.footer__menu {
   font-size: 14px;
   display: flex;
   gap: 40px;
@@ -531,17 +543,17 @@ body {
   line-height: 1.2;
 }
 
-.footer-menu a {
+.footer__link {
   text-decoration: none;
   color: #333333;
 }
 
-.footer-socials {
+.footer__socials {
   display: flex;
   gap: 19px;
 }
 
-.footer-socials img {
+.footer__social-icon {
   height: 36px;
   width: auto;
   display: block;
@@ -558,7 +570,7 @@ body {
   background-size: cover;
 }
 
-.hero-news h1 {
+.hero-news__title {
   color: white;
   font-size: 48px;
   font-weight: 700;
@@ -579,13 +591,13 @@ body {
   margin-bottom: 120px;
 }
 
-.news-photo {
+.news__photo {
   width: 100%;
   height: 240px;
   object-fit: cover;
 }
 
-.news-card {
+.news__card {
   padding: 30px 40px;
   border: 1px solid rgba(247, 236, 225, 1);
   display: flex;
@@ -594,7 +606,7 @@ body {
   box-sizing: border-box;
 }
 
-.news-date {
+.news__date {
   color: #333333;
   opacity: 50%;
   font-weight: 400;
@@ -605,15 +617,15 @@ body {
   margin-bottom: 15px;
 }
 
-.news-card h4 {
+.news__text {
   color: #333333;
   font-weight: 600;
-  font-size: 21px;
+  font-size: 20px;
   line-height: 140%;
   margin-bottom: 20px;
 }
 
-.detail {
+.news__btn {
   background: #8d86c9;
   color: white;
   text-decoration: none;
@@ -930,16 +942,6 @@ body {
 
 .modal-close:hover {
   color: #333;
-}
-
-/* Услуги новые разделы */
-.services-slider .service-card {
-  display: none;
-}
-
-.services-slider .service-card:first-child {
-  display: block;
-  margin: 0 auto;
 }
 
 /* О клубе ( блок с правилами)  */

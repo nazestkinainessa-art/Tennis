@@ -10,100 +10,124 @@
     <main>
       <section class="hero-news">
         <header class="header">
-          <div class="container header-container">
-            <div class="logo">
+          <div class="container header__container">
+            <div class="header__logo">
               <a href="index.html"
                 ><img src="img/svg/logo.svg" alt="Логотип Тенниса"
               /></a>
             </div>
             <nav class="navigation">
-              <ul class="navigation-list">
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="club.html">О клубе</a></li>
-                <li><a href="index.html#services">Турниры</a></li>
-                <li><a href="index.html#cafe-section">Услуги</a></li>
-                <li><a href="index.html#services">Детский теннис</a></li>
-                <li><a href="news.html">Галерея</a></li>
-                <li><a href="index.html#cafe-section">Цены</a></li>
-                <li><a href="#footer">Контакты</a></li>
+              <ul class="navigation__list">
+                <li class="navigation__item">
+                  <a href="index.html" class="navigation__link">Главная</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="club.html" class="navigation__link">О клубе</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="#services" class="navigation__link">Турниры</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="#cafe-section" class="navigation__link">Услуги</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="#services" class="navigation__link"
+                    >Детский теннис</a
+                  >
+                </li>
+                <li class="navigation__item">
+                  <a href="news.html" class="navigation__link">Галерея</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="#cafe-section" class="navigation__link">Цены</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="#footer" class="navigation__link">Контакты</a>
+                </li>
               </ul>
             </nav>
-            <div class="social">
-              <a href="#"
-                ><img src="img/svg/icon-youtube-white.svg" alt="YouTube"
+            <div class="header__social">
+              <a href="#" class="header__social-link">
+                <img
+                  src="img/svg/icon-youtube-white.svg"
+                  alt="YouTube"
+                  class="header__social-icon"
               /></a>
-              <a href="#"><img src="img/svg/icon-vk-white.svg" alt="VK" /></a>
-            </div>
-          </div>
-          <div class="header-line"></div>
+              <a href="#" class="header__social-link">
+                <img
+                  src="img/svg/icon-vk-white.svg"
+                  alt="VK"
+                  class="header__social-icon"
+              /></a>
+          <div class="header__line"></div>
         </header>
 
         <section>
-          <h1>Новости</h1>
+          <h1 class="hero-news__title">Новости</h1>
         </section>
       </section>
 
       <section class="news">
         <div class="container">
           <div class="news-container">
-            <div class="news-card">
-              <img src="img/news-1.webp" alt="1" class="news-photo" />
-              <time class="news-date">22 июля 2022 года</time>
-              <h4>
+            <div class="news__card">
+              <img src="img/news-1.webp" alt="1" class="news__photo" />
+              <time class="news__date">22 июля 2022 года</time>
+              <h4 class="news__text">
                 Consequat consequat augue quis<br />
                 urna arcu scelerisque ac montes,<br />
                 sed. Arcu orci quam lectus orci in.
               </h4>
-              <a href="#" class="detail">Подробнее</a>
+              <a href="#" class="news__btn">Подробнее</a>
             </div>
-            <div class="news-card">
-              <img src="img/news-2.webp" alt="2" class="news-photo" />
-              <time class="news-date">4 апреля 2022 года</time>
-              <h4>
+            <div class="news__card">
+              <img src="img/news-2.webp" alt="2" class="news__photo" />
+              <time class="news__date">4 апреля 2022 года</time>
+              <h4 class="news__text">
                 Suspendisse orci fermentum<br />
                 congue enim risus velit neque. Mi.
               </h4>
-              <a href="#" class="detail">Подробнее</a>
+              <a href="#" class="news__btn">Подробнее</a>
             </div>
-            <div class="news-card">
-              <img src="img/news-3.webp" alt="3" class="news-photo" />
-              <time class="news-date">30 ноября 2021 года</time>
-              <h4>
+            <div class="news__card">
+              <img src="img/news-3.webp" alt="3" class="news__photo" />
+              <time class="news__date">30 ноября 2021 года</time>
+              <h4 class="news__text">
                 Interdum proin amet nibh tortor<br />
                 sed vulputate mattis. Ridiculus<br />
                 porta ipsum neque ut vel vitae et.
               </h4>
-              <a href="#" class="detail">Подробнее</a>
+              <a href="#" class="news__btn">Подробнее</a>
             </div>
-            <div class="news-card">
-              <img src="img/news-4.webp" alt="4" class="news-photo" />
+            <div class="news__card">
+              <img src="img/news-4.webp" alt="4" class="news__photo" />
               <time class="news-date">22 июля 2022 года</time>
-              <h4>
+              <h4 class="news__text">
                 Nisl tempor vel tempor adipiscing<br />
                 id nulla magnis ut ultrices.<br />
                 Malesuada metus et in blandit.
               </h4>
-              <a href="#" class="detail">Подробнее</a>
+              <a href="#" class="news__btn">Подробнее</a>
             </div>
-            <div class="news-card">
-              <img src="img/news-5.webp" alt="5" class="news-photo" />
-              <time class="news-date">22 июля 2022 года</time>
-              <h4>
+            <div class="news__card">
+              <img src="img/news-5.webp" alt="5" class="news__photo" />
+              <time class="news__date">22 июля 2022 года</time>
+              <h4 class="news__text">
                 Libero fermentum pretium sed orci<br />
                 nunc, sagittis mollis lacus dolor.<br />
                 Tincidunt et enim sed ac faucibus.
               </h4>
-              <a href="#" class="detail">Подробнее</a>
+              <a href="#" class="news__btn">Подробнее</a>
             </div>
-            <div class="news-card">
-              <img src="img/news-6.webp" alt="6" class="news-photo" />
-              <time class="news-date">22 июля 2022 года</time>
-              <h4>
+            <div class="news__card">
+              <img src="img/news-6.webp" alt="6" class="news__photo" />
+              <time class="news__date">22 июля 2022 года</time>
+              <h4 class="news__text">
                 Netus hendrerit tortor laoreet duis<br />
                 proin nulla faucibus ultricies. Et<br />
                 urna fringilla nunc, metus nec.
               </h4>
-              <a href="#" class="detail">Подробнее</a>
+              <a href="#" class="news__btn">Подробнее</a>
             </div>
           </div>
         </div>
@@ -111,25 +135,52 @@
     </main>
 
     <footer class="footer" id="footer">
-      <div class="footer-container">
-        <p class="copyright">2022 © Все права защищены.</p>
-        <ul class="footer-menu">
-          <li><a href="index.html">Главная</a></li>
-          <li><a href="club.html">О клубе</a></li>
-          <li><a href="index.html#services">Турниры</a></li>
-          <li><a href="index.html#cafe-section">Услуги</a></li>
-          <li><a href="index.html#services">Детский теннис</a></li>
-          <li><a href="news.html">Галерея</a></li>
-          <li><a href="index.html#cafe-section">Цены</a></li>
-          <li><a href="index.html#footer">Контакты</a></li>
+      <div class="footer__container">
+        <p class="footer__copyright">2022 © Все права защищены.</p>
+        <ul class="footer__menu">
+          <li class="footer__item">
+            <a href="index.html" class="footer__link">Главная</a>
+          </li>
+          <li class="footer__item">
+            <a href="club.html" class="footer__link">О клубе</a>
+          </li>
+          <li class="footer__item">
+            <a href="#services" class="footer__link">Турниры</a>
+          </li>
+          <li class="footer__item">
+            <a href="#cafe-section" class="footer__link">Услуги</a>
+          </li>
+          <li class="footer__item">
+            <a href="#services" class="footer__link">Детский теннис</a>
+          </li>
+          <li class="footer__item">
+            <a href="news.html" class="footer__link">Галерея</a>
+          </li>
+          <li class="footer__item">
+            <a href="#cafe-section" class="footer__link">Цены</a>
+          </li>
+          <li class="footer__item">
+            <a href="#footer" class="footer__link">Контакты</a>
+          </li>
         </ul>
-        <div class="footer-socials">
-          <a href="#"
-            ><img src="img/svg/icon-youtube-purple.svg" alt="YouTube"
+        <div class="footer__socials">
+          <a href="#" class="footer__social-link"
+            ><img
+              src="img/svg/icon-youtube-purple.svg"
+              class="footer__social-icon"
+              alt="YouTube"
           /></a>
-          <a href="#"><img src="img/svg/icon-vk-purple.svg" alt="VK" /></a>
-          <a href="#"
-            ><img src="img/svg/icon-tg-purple.svg" alt="Telegram"
+          <a href="#" class="footer__social-link"
+            ><img
+              src="img/svg/icon-vk-purple.svg"
+              class="footer__social-icon"
+              alt="VK"
+          /></a>
+          <a href="#" class="footer__social-link"
+            ><img
+              src="img/svg/icon-tg-purple.svg"
+              class="footer__social-icon"
+              alt="Telegram"
           /></a>
         </div>
       </div>
